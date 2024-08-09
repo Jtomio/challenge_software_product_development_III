@@ -40,7 +40,8 @@ Utilizando o serviço de e-mail confiável do SendGrid, nossa aplicação pode e
    cd challenge_software_product_development_III
 
 2. **Instale as dependências**
-  `npm instal`
+  ```bash
+  npm instal
 
 3. **Configure as variáveis de ambiente:**
     Crie um arquivo `.env` na raiz do projeto e adicione as seguintes variáveis:
@@ -50,10 +51,12 @@ Utilizando o serviço de e-mail confiável do SendGrid, nossa aplicação pode e
     SENDGRID_API_KEY="sua-api-key-sendgrid"
 
 4. **Execute as migrações do Prisma**
-  `npx prisma migrate dev --name init`
+  ```bash
+  npx prisma migrate dev --name init
 
 5. **Inicie o servidor de desenvolvimento**
-  `npm run dev`
+  ```bash
+   npm run dev
 
 ## Contribuição
 
